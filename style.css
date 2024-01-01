@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: green;
+    font-family: "Bree Serif", serif;
+    margin-top: -1%;
+}
+
+#header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin-top: -3%;
+}
+
+#valueCont {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: -1%;
+}
+
+#whosTurn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-top: -2%;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    margin-top: -2%;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+#container2 p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#container2 input {
+    font-size: 1.1rem;
+    border-radius: 3px;
+    background-color: #404040;
+    border-color: white;
+    outline: none;
+    color: white;
+    padding: 10px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+#find {
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+    margin: 2%;
+}
+
+#loading {
+    display: flex;
+    width: 5%;
+    margin-top: 1%;
+}
+
+#bigCont {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cont div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #585858;
+    border-color: white;
+
+}
+
+/* 
+font-family: "Roboto", sans-serif;
+font-family: "Bree Serif", serif; */
